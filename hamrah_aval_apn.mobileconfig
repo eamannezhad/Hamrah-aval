@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.cellular</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.hamrahaval.apnconfig</string>
+      <key>PayloadUUID</key>
+      <string>87654321-4321-4321-4321-abcdefabcdef</string>
+      <key>PayloadDisplayName</key>
+      <string>Hamrah Aval APN</string>
+      <key>PayloadDescription</key>
+      <string>APN settings for Hamrah Aval (MCI)</string>
+      <key>PayloadOrganization</key>
+      <string>Hamrah Aval</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>APNs</key>
+      <array>
+        <dict>
+          <key>Name</key>
+          <string>mcinet</string>
+          <key>AuthenticationType</key>
+          <string>PAP</string>
+          <key>Username</key>
+          <string></string>
+          <key>Password</key>
+          <string></string>
+          <key>ProxyServer</key>
+          <string></string>
+          <key>ProxyPort</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </array>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.hamrahaval.configprofile</string>
+  <key>PayloadUUID</key>
+  <string>fedcba98-7654-3210-4321-fedcba987654</string>
+  <key>PayloadDisplayName</key>
+  <string>Hamrah Aval APN Profile</string>
+</dict>
+</plist>
